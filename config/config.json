@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "dialog-poc-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dialogPoc/DialogPocWebPart.js",
+          "manifest": "./src/webparts/dialogPoc/DialogPocWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DialogPocWebPartStrings": "lib/webparts/dialogPoc/loc/{locale}.js"
+  }
+}

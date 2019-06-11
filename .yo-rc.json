@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.8.2",
+    "libraryName": "dialog-poc",
+    "libraryId": "a8bc18ab-ffa2-4e17-9da8-7194b7e97951",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
