@@ -29,7 +29,7 @@ export default class DialogPoc extends React.Component<IDialogPocProps, IDialogB
               <p className={ styles.description }>{escape(this.props.description)}</p>
               <a href="https://aka.ms/spfx" className={ styles.button }>
                 <span className={ styles.label }>Learn more</span>
-              </a>
+              </a> 
               <DefaultButton secondaryText="Opens the Sample Dialog" onClick={this._showDialog} text="Open Dialog" />
               <Dialog
                 hidden={hideDialog}
